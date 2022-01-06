@@ -12,6 +12,7 @@ Variables defined with let have Block Scope. -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" src="style.scss" />
     <title>Document</title>
   </head>
   <body>
@@ -20,12 +21,6 @@ Variables defined with let have Block Scope. -->
       <p id="test"></p>
     </div>
 
-    <script>
-      let name = "Reeju"; //Here name is a string "Reeju"
-      {
-        let name = "Reeju Bhattacherji"; //Here name is a string "Reeju Bhattacherji" and it can not be used outside the block
-      }
-      document.getElementById("test").innerHTML = name;
-    </script>
+    <script src="index.js"></script>
   </body>
 </html>
